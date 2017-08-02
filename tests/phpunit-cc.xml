@@ -6,7 +6,7 @@
     <testsuites>
         <testsuite name="calcTest">
             <directory prefix="" suffix=".php">./tests/</directory>
-             <exclude>./tests/PHPUnit/TeamCity/Tests/Fixtures</exclude>
+             <exclude>./tests/</exclude>
         </testsuite>
     </testsuites>
 </phpunit>
