@@ -5,7 +5,7 @@
 >
     <testsuites>
         <testsuite name="calcTest">
-            <directory prefix="" suffix=".php">./tests/</directory>
+            <directory prefix="" suffix="Test.php">./tests/</directory>
              <exclude>./tests/</exclude>
         </testsuite>
     </testsuites>
