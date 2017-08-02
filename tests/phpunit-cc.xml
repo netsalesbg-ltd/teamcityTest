@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="bootstrap.php">
+<phpunit bootstrap="tests/bootstrap.php">
   <testsuites>
-    <testsuite name="calculator">
+    <testsuite name="calc">
+    	<directory>tests</directory>
       <file>tests/CalculatorTest.php</file>
+      
     </testsuite>
   </testsuites>
 </phpunit>
