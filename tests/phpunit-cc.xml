@@ -4,8 +4,9 @@
     colors="true"
 >
     <testsuites>
-        <testsuite>
+        <testsuite name="calcTest">
             <directory prefix="" suffix=".php">./tests/</directory>
+             <exclude>./tests/PHPUnit/TeamCity/Tests/Fixtures</exclude>
         </testsuite>
     </testsuites>
 </phpunit>
