@@ -13,6 +13,6 @@ class CalculatorTest extends PHPUnit_Framework_TestCase
 	}
 	public function testSumNumber2()
 	{
-		$this->assertEquals(30,Calculator::Sum(5,25));
+		$this->assertEquals(31,Calculator::Sum(5,25));
 	}
 }
