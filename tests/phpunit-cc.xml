@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit
-    bootstrap="bootstrap.php"
-    colors="true"
->
-    <testsuites>
-        <testsuite name="calcTest">
-            <directory prefix="" suffix="Test.php">./tests/</directory>
-             <exclude>./tests/</exclude>
-        </testsuite>
-    </testsuites>
+<phpunit bootstrap="bootstrap.php">
+  <testsuites>
+    <testsuite name="calculator">
+      <file>tests/CalculatorTest.php</file>
+    </testsuite>
+  </testsuites>
 </phpunit>
